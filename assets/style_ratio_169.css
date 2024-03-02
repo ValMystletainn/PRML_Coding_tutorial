@@ -1,0 +1,207 @@
+<style>
+  .reveal .slide-number {
+    font-size: 26px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .3);
+  }
+  
+  .reveal .full-screen {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+  }
+  
+  .reveal .slides {
+    border: 3px #ddd solid;
+    border-radius: 14px;
+    text-align: left;
+    font-weight: 300;
+  }
+  
+  .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+    font-family: 'Arial', 'SimHei', 'STXihei', 'Droid Sans';
+    font-weight: 400;
+  }
+  
+  .reveal p, .reveal li, .reveal center {
+    font-size: 48px;
+    font-family: 'Arial', 'STHeiti', 'SimHei', 'Droid Sans';
+  }
+  
+  .reveal li {
+    margin-top: 15px;
+    margin-left: 36px;
+  }
+  
+  .reveal ul {
+    display: block;
+    margin-left: 36px;
+  }
+  
+  .reveal p, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+    padding:  0 30px 0 30px;
+  }
+  
+  .reveal table {
+    font-size: 48px;
+    font-family: 'Arial', 'STHeiti', 'SimHei', 'Sans Serif';
+    margin-top: 22.5px;
+    margin-bottom: 22.5px;
+  }
+  
+  .reveal th {
+    background-color: #eee;
+  }
+  
+  .reveal tr:nth-child(even) {
+    background-color: #efffff;
+  }
+  
+  .reveal h1,
+  .reveal h2,
+  .reveal h3,
+  .reveal h4,
+  .reveal h5,
+  .reveal h6 {
+    text-align: left;
+    margin: 0 0 20px 0;
+    color: #222; 
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: normal;
+  }
+  
+  
+  
+  .reveal h1 {
+    font-size: 90px;
+    text-align: center;
+    margin-top: 525px;
+    margin-bottom: 525px;
+  }
+  .reveal .middle h1 {
+    text-align: center;
+  }
+  
+  .reveal h2 {
+    font-size: 72px;
+    border-bottom: 3px solid rgb(106, 0, 95);
+    padding-bottom: 7.5px;
+    padding-top: 15px;
+  }
+  .reveal h3 { font-size: 1.15em; }
+  .reveal h4 { font-size: 1.05em; }
+  
+  .reveal .center {
+    text-align: center;
+  }
+  
+  .reveal .middle {
+    height: 1092px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .reveal pre {
+    font-size: 42px;
+   
+    background-color: #eee;
+  
+    border-radius: 4.5mm;
+    padding: 15px 15px 15px 15px;
+  }
+  
+  .reveal pre code {
+    max-height: none;
+  }
+  
+  .reveal code {
+    font-family: 'Consolas', Monospace;
+  }
+  
+  .reveal .middle blockquote {
+    text-align: center;
+    color: rgb(106, 0, 95);
+    background: none;
+    box-shadow: none;
+    font-style: normal;
+  }
+  
+  .reveal .middle blockquote a {
+    color: inherit;
+  }
+  
+  .reveal blockquote p, .reveal blockquote li {
+    font-family: 'Arial', 'AR PL Ukai CN', 'STKaiti', 'KaiTi', 'Sans Serif';
+    font-style: normal;
+  }
+  
+  section .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .reveal .author-block {
+    margin: 112.5px 0 52.5px 0;
+  }
+  .reveal .author-affiliation img {
+    margin: 22.5px 0 0 0;
+  }
+  .reveal .author-block p, .reveal .author-affiliation p  {
+    font-family: 'Kaiti', 'STKaiti', 'Serif', 'Times', 'Times New Roman';
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  }
+  .reveal .author-affiliation {
+    display: inline-block;
+    font-size: 90%;
+  }
+  .reveal hr {
+    border: 15px solid rgba(0, 0, 0, 0);
+  }
+  
+  .reveal figcaption {
+    font-size: 36px;
+  }
+
+  .reveal figure {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .reveal img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .reveal center img {
+    display: inline;
+  }
+
+  .reveal audio {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .reveal video {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .reveal iframe {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .reveal canvas {
+    display: block;
+    margin: 0 auto;
+  }
+</style>
