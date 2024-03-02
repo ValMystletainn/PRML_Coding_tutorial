@@ -26,6 +26,7 @@ all: $(OBJECTS)
 
 $(DEST_DIR)/%.html: $(SRC_DIR)/%.md
 	mkdir -p $(DEST_DIR)
+	pandoc --version
 	pandoc $< -o $@ \
 	-t revealjs \
 	-s \

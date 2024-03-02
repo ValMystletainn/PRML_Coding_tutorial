@@ -4,7 +4,7 @@
 
 ## Usage
 ### slides
-1. 安装 pandoc 
+1. 安装 pandoc (ver 3.*)
 2. 用 make 编译对应的 slides
 
 ```bash
